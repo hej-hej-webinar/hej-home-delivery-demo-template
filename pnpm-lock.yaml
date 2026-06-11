@@ -11,6 +11,9 @@ importers:
       express:
         specifier: ^4.21.2
         version: 4.22.2
+      minimist:
+        specifier: 0.0.8
+        version: 0.0.8
     devDependencies:
       '@types/express':
         specifier: ^5.0.3
@@ -933,6 +936,9 @@ packages:
     resolution: {integrity: sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==}
     engines: {node: '>=4.0.0'}
     hasBin: true
+
+  minimist@0.0.8:
+    resolution: {integrity: sha512-miQKw5Hv4NS1Psg2517mV4e4dYNaO3++hjAvLOAzKqZ61rH8NS1SK+vbfBWZ5PY/Me/bEWhUwqMghEW5Fb9T7Q==}
 
   ms@2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
@@ -1928,6 +1934,8 @@ snapshots:
   mime@1.6.0: {}
 
   mime@2.6.0: {}
+
+  minimist@0.0.8: {}
 
   ms@2.0.0: {}
 

@@ -1,20 +1,15 @@
-# Hej Home Delivery PII Demo Template
+# Hej Home Delivery Demo Template
 
-This is a clean template repository for the first webinar demo: **PII review with a custom Copilot agent**.
+This is the clean starting repository for the webinar demos. It contains only the base app skeleton: a small TypeScript/Express service, a health endpoint, tests, pnpm configuration, and pinned CI.
 
-It intentionally stops before the later supply-chain, CodeQL, Dependabot, and plugin-governance demos. Use it when you want a fresh copy that can produce the first PII PR without carrying the rest of the webinar demo state.
+The demo content is intentionally not pre-created here. Presenters add custom agents, feature branches, fixture files, dependency-review configuration, pnpm controls, Dependabot configuration, CodeQL demo code, and plugin packaging during the walkthrough.
 
 ## What is included
 
-- A minimal TypeScript/Express service with `/health`.
-- Pinned GitHub Actions for CI.
-- Dependency review workflow, ready for later demos if needed.
-- Repository-level Copilot instructions for public-safe demo data.
-- A local `.github/agents/pii-review.agent.md` custom agent.
-- Prepared branches:
-  - `main`: clean baseline before the PII feature.
-  - `demo/01-pii-fixtures`: feature branch containing realistic-looking fixture data for review.
-  - `demo/01-pii-safe-fixtures`: fallback branch showing the safer generated fixture pattern.
+- `src/app.ts` and `src/server.ts`: the minimal API service.
+- `test/app.test.ts`: the baseline health-check test.
+- `.github/workflows/ci.yml`: pinned CI for lint, test, and build.
+- `package.json`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`, and `tsconfig.json`: the prepared TypeScript/pnpm project skeleton.
 
 ## Local validation
 
@@ -30,4 +25,4 @@ rm -rf dist
 
 ## Public-safety rule
 
-All data in this repository must remain synthetic. Do not add real Ingka, IKEA, employee, customer, incident, repository, or internal policy data.
+All demo data must remain synthetic. Do not add real Ingka, IKEA, employee, customer, incident, repository, or internal policy data.

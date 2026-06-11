@@ -1,0 +1,41 @@
+[
+  {
+    "customerId": "CUST-1001",
+    "fullName": "Ava Thompson",
+    "email": "ava.thompson@example.test",
+    "phone": "+44 7700 900111",
+    "nationalIdentifier": "SE-19700230-0000",
+    "address": {
+      "line1": "12 Orchard Lane",
+      "city": "Leeds",
+      "postcode": "LS1 4AB"
+    },
+    "loyaltyTier": "Gold"
+  },
+  {
+    "customerId": "CUST-1002",
+    "fullName": "Noah Patel",
+    "email": "noah.patel@example.test",
+    "phone": "+44 7700 900222",
+    "nationalIdentifier": "SE-19880230-0000",
+    "address": {
+      "line1": "89 River Street",
+      "city": "Bristol",
+      "postcode": "BS1 5CD"
+    },
+    "loyaltyTier": "Silver"
+  },
+  {
+    "customerId": "CUST-1003",
+    "fullName": "Mia Hughes",
+    "email": "mia.hughes@example.test",
+    "phone": "+44 7700 900333",
+    "nationalIdentifier": "SE-19990230-0000",
+    "address": {
+      "line1": "4 Kingfisher Court",
+      "city": "Manchester",
+      "postcode": "M1 6EF"
+    },
+    "loyaltyTier": "Bronze"
+  }
+]
